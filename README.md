@@ -1,4 +1,4 @@
-# Active Directory Attack Playbook — Red ↔ Blue (10.8.10.0/24)
+# Active Directory Attack Playbook — Red ↔ Blue (10.x.x.0/24)
 
 > **Scope & Ethics** — Authorized defensive security and approved lab assessments only.
 
