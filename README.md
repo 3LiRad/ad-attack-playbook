@@ -15,7 +15,7 @@ This repository documents high-probability Active Directory (AD) attack paths an
 | Service Server | SVC01.DRAGONBALL.local | **10.x.x.15** |
 | File Server | FILE01.DRAGONBALL.local | **10.x.x.25** |
 | Workstation | WIN10-1.DRAGONBALL.local | **10.x.x.35** |
-| Assessment Host | KALI | **10.8.10.50** |
+| Assessment Host | KALI | **10.x.x.50** |
 
 flowchart LR
   %% Use a clean subgraph ID and put the label in brackets
