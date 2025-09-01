@@ -1,3 +1,4 @@
+
 # Active Directory Attack Playbook — Red ↔ Blue (10.x.x.0/24)
 
 > **Scope & Ethics** — Authorized defensive security and approved lab assessments only.
@@ -10,15 +11,16 @@ This repository documents high-probability Active Directory (AD) attack paths an
 
 | Role | Hostname | IP |
 |---|---|---|
-| Domain Controller | DC01.DRAGONBALL.local | **10.x.x.225** |
-| Certificate Authority | CA01.DRAGONBALL.local | **10.x.x.200** |
-| Service Server | SVC01.DRAGONBALL.local | **10.x.x.15** |
-| File Server | FILE01.DRAGONBALL.local | **10.x.x.25** |
-| Workstation | WIN10-1.DRAGONBALL.local | **10.x.x.35** |
-| Assessment Host | KALI | **10.x.x.50** |
+| Domain Controller | DC01.DRAGONBALL.local | **10.x.x.x** |
+| Certificate Authority | CA01.DRAGONBALL.local | **10.x.x.x** |
+| Service Server | SVC01.DRAGONBALL.local | **10.x.x.x** |
+| File Server | FILE01.DRAGONBALL.local | **10.x.x.x** |
+| Workstation | WIN10-1.DRAGONBALL.local | **10.x.x.x** |
+| Assessment Host | KALI | **10.x.x.x** |
 
+```mermaid
 flowchart LR
-  %% Use a clean subgraph ID and put the label in brackets
+  %% Clean IDs; pretty labels in brackets
   subgraph DRAGONBALL["DRAGONBALL.local (10.x.x.0/24)"]
     DC01["DC01 10.x.x.225"]
     CA01["CA01 10.x.x.200"]
@@ -31,4 +33,3 @@ flowchart LR
   WIN10_1 --> SVC01
   SVC01 --> DC01
   DC01 --> CA01
-
